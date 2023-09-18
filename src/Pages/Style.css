@@ -1,0 +1,213 @@
+
+body{
+  padding: 0px;
+    margin: 0px;
+}
+.Main-Box{
+    height: 680px;
+    width: 100%;
+    background-color: #000000;
+}
+.shopkart{
+    color: white;
+    position: relative;
+    right: 38%;
+    top: 1%;
+    font-size: 28px;
+}
+.wish-cart{
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: 35%;
+    font-weight: bold;
+}
+
+/* App.css */
+
+/* App.css */
+
+/* Reset some default styles */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /* Define styles for the main container */
+  .App {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:000000;
+    color: #fff;
+  }
+  
+  .navbar-menu {
+    display: flex; /* Display navbar items in the same line */
+  }
+  
+  .navbar-menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display submenu items in the same line */
+
+  }
+  li{
+padding: 5px 60px;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    padding: 10px 20px; /* Increase padding for desktop view */
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .navbar-menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Mobile menu styles */
+  .navbar-toggle {
+    display: none; /* Hidden on desktop */
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  /* Open mobile menu styles */
+  .navbar.open {
+    position: relative;
+  }
+  
+  .navbar.open .navbar-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    z-index: 1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+  }
+  
+  .navbar.open .navbar-menu ul {
+    padding-left: 0;
+  }
+  
+  /* Submenu styles */
+  .navbar-menu ul ul {
+    display: none; /* Hidden by default */
+    
+   }
+  
+  .navbar-menu li:hover > ul {
+    display: inline-block; /* Display submenu on hover */
+    font-size: 12px;
+    
+  }
+  
+  /* Media query for mobile view */
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none; /* Hide menu by default on mobile */
+      flex-direction: column; /* Vertical menu on mobile */
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+    }
+  
+    .navbar-menu.open {
+      display: flex; /* Show menu when open */
+    }
+  
+    .navbar-toggle {
+      display: block; /* Show menu toggle icon on mobile */
+    }
+  }
+  
+
+  .box1{
+    display: inline;
+    height: 350px;
+    width: 65%;
+    background-color: #F07E15;
+    position: absolute;
+    left: 35%;
+    top: 280px;
+    z-index: +1;
+  }
+  .imgstar{
+    height: 350px;
+    width: 330px;
+    background-image: url('../images/Star\ 3.png');
+    position: absolute;
+    background-size: 100% 100%;
+    top: 15%;
+    left: 65%;
+    z-index: +2;
+  }
+  .imgmen{
+    height: 480px;
+    width: 400px;
+    background-image: url('../images/jessica-radanavong-IchPBHFD0pw-unsplash.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    z-index: +3;
+  }
+
+  .box2{
+    display: inline;
+    height: 350px;
+    width: 65%;
+    background-image: url('../images/Rectangle\ 29.png');
+    position: absolute;
+    left: 35%;
+    top: 280px;
+    z-index: +4;
+  }
+  .text{
+    display: inline;
+    position: absolute;
+color: white;
+font-size: 135px;
+font-family: Syne;
+z-index: +5;
+}
+.fresh{
+    top: 137px;
+    left: 20%;
+    font-family: 'Londrina Outline', cursive;
+    font-family: 'Syncopate', sans-serif;
+}
+.twenty{
+    top: 255px;
+    left: 31%;;
+    font-family: 'Londrina Outline', cursive;
+   
+
+}
+.Look{
+  font-size: 125px;
+    top: 395px;
+    left: 23%;
+font-family: 'Syncopate', sans-serif;
+}
+.arival{
+    font-family: 'Syncopate', sans-serif;
+  font-size: 60px;
+
+}

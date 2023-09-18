@@ -1,0 +1,153 @@
+body{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.cart{
+    padding: 0px;
+    margin: 0px;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    position:absolute;
+    top: 680px;
+    
+}
+.arival{
+   position: relative;
+   right: 32%;
+   top: 10px;
+}
+.arhr{
+ width: 350px;
+ position: relative;
+ right: 32%;
+ top: 5px;
+}
+.listbox{
+    position: relative;
+    right: 35%;
+    font-size: 20px;
+}
+.before-cr{
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+
+.card-carousel {
+    position: relative;
+     width: 100%; 
+     left: 23%;
+     top: 110px;
+     
+  }
+  
+  .card {
+    background-color: #fff; 
+   text-align: center;
+  }
+  
+
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: +1;
+    cursor: pointer;
+  }
+  
+  .slick-prev {
+    left: 10px;
+    z-index: +2;
+  }
+  
+  .slick-next {
+    right: 10px;
+    z-index: +2;
+  }
+  .cr-span{
+    display: block;
+    height: 50px;
+    width: 250px;
+    overflow: hidden;
+    position: inherit;
+    text-align: left;
+  }
+  .cr-titl{
+    text-align: left;
+  }
+   .cr-price{
+    text-align: left;
+  }
+  .cr-img{
+    height: 200px;
+    width: 150px;
+    text-align: left;
+   
+}
+.footerbox{
+    height: 450px;
+    background-image: url('../images/18591063.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+}
+.newsleter{
+    color: gray;
+    position: relative;
+    top: 60px;
+    left: 90px;
+    text-align: left;
+}
+.formf{
+    position: relative;
+    bottom: 105px;
+    left: 150px;
+    
+}
+input{
+    height: 50px;
+    width: 250px;
+    background: none;
+    margin: 10px;
+    outline: none;
+      border: none;
+      border-bottom: 1px solid gray;
+}
+.btn{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: none;
+  border: 1px solid yellow;
+  color: yellow;
+  position: relative;
+  left: 80px;
+  top: 10px;
+}
+.getin{
+  font-size: 80px;
+  text-align: left;
+  line-height: 15px;
+  color: white;
+  position: relative;
+  bottom: 270px;
+  left: 80px;
+  font-weight: bolder;
+}
+.last{
+height: 50px;
+background-color: black;
+display: flex;
+justify-content: center; 
+align-items: center; 
+color: white;
+position: relative;
+bottom: 300px;
+font-size: 12px;
+}
