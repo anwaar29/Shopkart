@@ -18,7 +18,7 @@ function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Perform validation
+  
     const newErrors = {};
 
     if (!formData.name) {
@@ -35,9 +35,9 @@ function Form() {
 
     setErrors(newErrors);
 
-    // If there are no errors, you can proceed with form submission
+  
     if (Object.keys(newErrors).length === 0) {
-      // Handle form submission logic here
+    
       console.log('Form data submitted:', formData);
     }
   };

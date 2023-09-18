@@ -9,7 +9,7 @@ const Caro = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    // Fetch data from the API
+    
     fetch('https://fakestoreapi.com/products')
       .then((response) => response.json())
       .then((data) => setProducts(data))

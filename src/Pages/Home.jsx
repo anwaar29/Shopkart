@@ -4,7 +4,6 @@ import './Style2.css'
 import Nav from './Nav'
 import Caro from './Caro'
 import Footer from './Footer'
-import Top from './Top'
 const Home = () => {
   return (
     <>

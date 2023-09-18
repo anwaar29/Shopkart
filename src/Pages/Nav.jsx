@@ -55,7 +55,7 @@ const Nav = () => {
   return (
     <div className="App">
       <Navbar items={navbar} />
-      {/* Your content goes here */}
+     
     </div>
   );
 };
